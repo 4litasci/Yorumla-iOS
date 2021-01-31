@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		415F52821EEDFD72007F7431 /* yorum.png in Resources */ = {isa = PBXBuildFile; fileRef = 415F52811EEDFD72007F7431 /* yorum.png */; };
+		415F52841EEDFD78007F7431 /* bilgi.png in Resources */ = {isa = PBXBuildFile; fileRef = 415F52831EEDFD78007F7431 /* bilgi.png */; };
+		415F52861EEDFECB007F7431 /* YorumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415F52851EEDFECB007F7431 /* YorumController.swift */; };
+		41645CCC1EC84ECA00E677D3 /* UrunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41645CCB1EC84ECA00E677D3 /* UrunViewController.swift */; };
+		41645CD31EC8736700E677D3 /* WebDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41645CD21EC8736700E677D3 /* WebDetayViewController.swift */; };
 		41E216D31E7E70D100F8FB10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E216D21E7E70D100F8FB10 /* AppDelegate.swift */; };
 		41E216D51E7E70D100F8FB10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E216D41E7E70D100F8FB10 /* ViewController.swift */; };
 		41E216D81E7E70D100F8FB10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E216D61E7E70D100F8FB10 /* Main.storyboard */; };
@@ -14,6 +19,8 @@
 		41E216DD1E7E70D100F8FB10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E216DB1E7E70D100F8FB10 /* LaunchScreen.storyboard */; };
 		41E216E81E7E70D100F8FB10 /* YorumlaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E216E71E7E70D100F8FB10 /* YorumlaTests.swift */; };
 		41E216F31E7E70D100F8FB10 /* YorumlaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E216F21E7E70D100F8FB10 /* YorumlaUITests.swift */; };
+		41E217011E7E81BA00F8FB10 /* AramaUrunModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E217001E7E81BA00F8FB10 /* AramaUrunModel.swift */; };
+		41E217031E7E85F600F8FB10 /* AramaHomaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E217021E7E85F600F8FB10 /* AramaHomaModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		415F52811EEDFD72007F7431 /* yorum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yorum.png; sourceTree = "<group>"; };
+		415F52831EEDFD78007F7431 /* bilgi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bilgi.png; sourceTree = "<group>"; };
+		415F52851EEDFECB007F7431 /* YorumController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YorumController.swift; sourceTree = "<group>"; };
+		41645CCB1EC84ECA00E677D3 /* UrunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrunViewController.swift; sourceTree = "<group>"; };
+		41645CD21EC8736700E677D3 /* WebDetayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebDetayViewController.swift; sourceTree = "<group>"; };
 		41E216CF1E7E70D100F8FB10 /* Yorumla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yorumla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E216D21E7E70D100F8FB10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41E216D41E7E70D100F8FB10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,8 @@
 		41E216EE1E7E70D100F8FB10 /* YorumlaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YorumlaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E216F21E7E70D100F8FB10 /* YorumlaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YorumlaUITests.swift; sourceTree = "<group>"; };
 		41E216F41E7E70D100F8FB10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E217001E7E81BA00F8FB10 /* AramaUrunModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AramaUrunModel.swift; sourceTree = "<group>"; };
+		41E217021E7E85F600F8FB10 /* AramaHomaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AramaHomaModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +88,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41645CCD1EC870B400E677D3 /* resimler */ = {
+			isa = PBXGroup;
+			children = (
+				415F52831EEDFD78007F7431 /* bilgi.png */,
+				415F52811EEDFD72007F7431 /* yorum.png */,
+			);
+			name = resimler;
+			sourceTree = "<group>";
+		};
 		41E216C61E7E70D100F8FB10 = {
 			isa = PBXGroup;
 			children = (
 				41E216D11E7E70D100F8FB10 /* Yorumla */,
+				41645CCD1EC870B400E677D3 /* resimler */,
 				41E216E61E7E70D100F8FB10 /* YorumlaTests */,
 				41E216F11E7E70D100F8FB10 /* YorumlaUITests */,
 				41E216D01E7E70D100F8FB10 /* Products */,
@@ -99,10 +123,15 @@
 			children = (
 				41E216D21E7E70D100F8FB10 /* AppDelegate.swift */,
 				41E216D41E7E70D100F8FB10 /* ViewController.swift */,
+				41645CCB1EC84ECA00E677D3 /* UrunViewController.swift */,
+				415F52851EEDFECB007F7431 /* YorumController.swift */,
+				41645CD21EC8736700E677D3 /* WebDetayViewController.swift */,
 				41E216D61E7E70D100F8FB10 /* Main.storyboard */,
 				41E216D91E7E70D100F8FB10 /* Assets.xcassets */,
 				41E216DB1E7E70D100F8FB10 /* LaunchScreen.storyboard */,
 				41E216DE1E7E70D100F8FB10 /* Info.plist */,
+				41E217001E7E81BA00F8FB10 /* AramaUrunModel.swift */,
+				41E217021E7E85F600F8FB10 /* AramaHomaModel.swift */,
 			);
 			path = Yorumla;
 			sourceTree = "<group>";
@@ -193,6 +222,7 @@
 				TargetAttributes = {
 					41E216CE1E7E70D100F8FB10 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TLQ5KXS53D;
 						ProvisioningStyle = Automatic;
 					};
 					41E216E21E7E70D100F8FB10 = {
@@ -232,8 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				415F52821EEDFD72007F7431 /* yorum.png in Resources */,
 				41E216DD1E7E70D100F8FB10 /* LaunchScreen.storyboard in Resources */,
 				41E216DA1E7E70D100F8FB10 /* Assets.xcassets in Resources */,
+				415F52841EEDFD78007F7431 /* bilgi.png in Resources */,
 				41E216D81E7E70D100F8FB10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E217011E7E81BA00F8FB10 /* AramaUrunModel.swift in Sources */,
 				41E216D51E7E70D100F8FB10 /* ViewController.swift in Sources */,
 				41E216D31E7E70D100F8FB10 /* AppDelegate.swift in Sources */,
+				41645CD31EC8736700E677D3 /* WebDetayViewController.swift in Sources */,
+				415F52861EEDFECB007F7431 /* YorumController.swift in Sources */,
+				41645CCC1EC84ECA00E677D3 /* UrunViewController.swift in Sources */,
+				41E217031E7E85F600F8FB10 /* AramaHomaModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TLQ5KXS53D;
 				INFOPLIST_FILE = Yorumla/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alitasci.net.Yorumla;
@@ -424,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TLQ5KXS53D;
 				INFOPLIST_FILE = Yorumla/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = alitasci.net.Yorumla;
@@ -505,6 +544,7 @@
 				41E216F91E7E70D100F8FB10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41E216FA1E7E70D100F8FB10 /* Build configuration list for PBXNativeTarget "YorumlaTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +553,7 @@
 				41E216FC1E7E70D100F8FB10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41E216FD1E7E70D100F8FB10 /* Build configuration list for PBXNativeTarget "YorumlaUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +562,7 @@
 				41E216FF1E7E70D100F8FB10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
